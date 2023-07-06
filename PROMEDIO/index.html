@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CALIFICACIONES</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body onload="calcular">
+  <div class="container text-center mt-2">
+    <h1 class="bg-danger text-white mt-2 p-2">CALIFICACIONES</h1><hr>
+  <div class="card w-75 m-auto overflow-hidden">
+    <h2 class="bg-success text-white">MODULO</h2>
+    <input type="range" class="form-range" id="modulo" min="5" max="10" value="7"><span id="cm" class="h1">7</span>
+  </div>
+    <div class="card w-75 m-auto overflow-hidden mt-2">
+    <h2 class="bg-primary text-white">CALCULO</h2>
+    <input type="range" class="form-range" id="calculo" min="5" max="10" value="7"><span id="cc" class="h1">7</span>
+  </div>
+    <div class="card w-75 m-auto overflow-hidden mt-2">
+    <h2 class="bg-warning text-white">ECOLOGÍA</h2>
+    <input type="range" class="form-range" id="ecologia" min="5" max="10" value="7"><span id="ce" class="h1">7</span>
+  </div>
+    <div class="card w-75 m-auto overflow-hidden mt-2">
+    <h2 class="bg-dark text-white">INGLES</h2>
+    <input type="range" class="form-range" id="ingles" min="5" max="10" value="7"><span id="ci" class="h1">7</span>
+  </div>
+    <div class="card w-75 m-auto overflow-hidden mt-2">
+    <h2 class="bg-danger text-white">FÍSICA</h2>
+    <input type="range" class="form-range" id="fisica" min="5" max="10" value="7"><span id="cf" class="h1">7</span>
+  </div>
+  <div class="card w-50 m-auto overflow-hidden mt-2 mb-5">
+    <h3 class="bg-info text-white">PROMEDIO</h3>
+    <h1 id="promedio">10</h1>
+  </div>
+      </div>
+      
+
+  <script src="bootstrap.min.js"></script>
+  <script src="sweetalert2.all.min.js"></script>
+  <script src="apps.js"></script>
+
+</body>
+
+</html>
